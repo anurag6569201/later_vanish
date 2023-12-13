@@ -204,7 +204,7 @@
   Q 300.43 72.56 300.13 72.37
   Z"
 />
-<path fill="#8fe26c" d="
+<path fill="#cad65a" d="
   M 248.45 88.53
   L 255.40 91.81
   A 0.35 0.35 0.0 0 1 255.33 92.47
@@ -468,7 +468,7 @@
   L 282.56 164.28
   Z"
 />
-<path fill="#8fe26c" d="
+<path fill="#cad65a" d="
   M 371.01 158.71
   Q 381.52 161.35 388.13 169.88
   Q 393.84 177.26 398.07 185.49
@@ -491,7 +491,7 @@
   Q 394.24 206.01 371.01 158.71
   Z"
 />
-<path fill="#8fe26c" d="
+<path fill="#cad65a" d="
   M 200.75 169.25
   Q 201.90 173.40 206.28 174.35
   Q 208.74 174.88 211.25 175.05
@@ -566,7 +566,7 @@
   L 234.96 198.40
   Z"
 />
-<path fill="#e6e7e7" d="
+<path fill="#d9e565" d="
   M 235.03 269.72
   L 263.17 255.78
   L 278.49 248.23
@@ -590,11 +590,11 @@
   L 239.13 207.02
   Z"
 />
-<rect fill="#e6e7e7" x="-29.52" y="-16.27" transform="translate(345.98,254.05) rotate(-26.3)" width="59.04" height="32.54" rx="0.55"/>
-<rect fill="#e6e7e7" x="-54.04" y="-2.65" transform="translate(231.57,292.51) rotate(-26.3)" width="108.08" height="5.30" rx="0.56"/>
-<rect fill="#e6e7e7" x="-54.04" y="-2.65" transform="translate(238.76,307.08) rotate(-26.3)" width="108.08" height="5.30" rx="0.29"/>
-<rect fill="#e6e7e7" x="-54.04" y="-2.64" transform="translate(245.95,321.65) rotate(-26.3)" width="108.08" height="5.28" rx="0.39"/>
-<path fill="#b6cbc6" d="
+<rect fill="#d9e565" x="-29.52" y="-16.27" transform="translate(345.98,254.05) rotate(-26.3)" width="59.04" height="32.54" rx="0.55"/>
+<rect fill="#d9e565" x="-54.04" y="-2.65" transform="translate(231.57,292.51) rotate(-26.3)" width="108.08" height="5.30" rx="0.56"/>
+<rect fill="#d9e565" x="-54.04" y="-2.65" transform="translate(238.76,307.08) rotate(-26.3)" width="108.08" height="5.30" rx="0.29"/>
+<rect fill="#d9e565" x="-54.04" y="-2.64" transform="translate(245.95,321.65) rotate(-26.3)" width="108.08" height="5.28" rx="0.39"/>
+<path fill="#cad65a" d="
   M 119.69 406.47
   C 116.39 405.71 110.08 404.48 107.95 401.44
   Q 107.66 401.03 107.90 400.59
