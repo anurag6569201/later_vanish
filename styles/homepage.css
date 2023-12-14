@@ -125,7 +125,7 @@ header span li text {
     text-align: left;
     margin-top: 2em;
 }
-
+.blogs a,
 .content_head_para a {
     font-size: 2em;
     background-color: transparent;
@@ -299,12 +299,23 @@ header span li text {
 }
 
 .card-back {
-    background-color: #F08A5D;
+    background-color: rgba(217, 229, 101,.4);
     color: #fff;
-    border: 10px solid #F08A5D;
+    border: 2px solid #d9e565;
     border-radius: 10px;
     font-size: 24px;
     transform: rotateY(180deg);
+    padding: 1em;
+}
+.card-back .card-back-title{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #a3ad45;
+    font-family: 'atomic',sans-serif;
+}
+.card-back p{
+    font-size: .7em;
+    color: #aebb36;
 }
 .blogs .card:nth-child(1) .card-front{
     background-image: url(../images/r1.png);
@@ -314,6 +325,11 @@ header span li text {
 }
 .blogs .card:nth-child(3) .card-front{
     background-image: url(../images/r3.png);
+}
+.blogs .button{
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
 }
 /* contact */
 .contact{
