@@ -125,6 +125,7 @@ header span li text {
     text-align: left;
     margin-top: 2em;
 }
+.money_image a,
 .blogs a,
 .content_head_para a {
     font-size: 2em;
@@ -230,10 +231,26 @@ header span li text {
 }
 .money_image .row{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
 }
 .money_image .row .card{
     height: 100%;
+    background: transparent;
+    border: none;
+    margin: auto;
+    width: 90%;
+}
+.contro{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-image: url(../images/contro\ \(1\).png);
+}
+.fund{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-image: url(../images/R-removebg-preview\ \(2\).png);
 }
 .taker_giver{
     background-image: url(../images/layered-waves-haikei\ \(1\).svg);
@@ -250,6 +267,7 @@ header span li text {
 .blogs_head{
     text-align: center;
 }
+.money_image .card,
 .blogs .card {
     width: 300px;
     height: 300px;
@@ -260,6 +278,7 @@ header span li text {
     cursor: pointer;
     transition: .7s;
 }
+.money_image .card:hover,
 .blogs .card:hover{
     scale: 1.05;
 }
@@ -270,7 +289,7 @@ header span li text {
     transform-style: preserve-3d;
     transition: transform 0.999s;
 }
-
+.money_image .card:hover .card-inner,
 .blogs .card:hover .card-inner {
     transform: rotateY(180deg);
 }
