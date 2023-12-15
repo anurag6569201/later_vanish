@@ -39,6 +39,8 @@ header {
 }
 
 .hero_text {
+    animation: hero_text 1s 1 forwards;
+    transition: 1s;
     position: absolute;
     right: 5em;
     top: 30vh;
@@ -47,6 +49,8 @@ header {
 }
 
 .hero_text p {
+    opacity: 0;
+    transition: 1s;
     font-size: 2em;
     font-family: 'atomic', sans-serif;
     color: var(--shadow-color);
@@ -231,14 +235,13 @@ header span li text {
 }
 .money_image .row{
     width: 100%;
-    height: 60vh;
 }
 .money_image .row .card{
-    height: 100%;
+    height: 30em;
     background: transparent;
     border: none;
     margin: auto;
-    width: 90%;
+    width: 80%;
 }
 .contro{
     background-repeat: no-repeat;
@@ -280,7 +283,7 @@ header span li text {
 }
 .money_image .card:hover,
 .blogs .card:hover{
-    scale: 1.05;
+    scale: 1.03;
 }
 .card-inner {
     width: 100%;
@@ -305,7 +308,7 @@ header span li text {
 }
 
 .card-front {
-    background-color: rgba(217, 229, 101,.4);
+    background-color: rgba(239, 240, 237, 0.199);
     display: flex;
     align-items: center;
     border: 2px solid #d9e565;
@@ -401,4 +404,20 @@ header span li text {
 footer{
     background-color: #a3ad45;
     box-shadow: 0 0 1em .5em #a3ad45, 0 0 2em 1em #a3ad45, 0 0 3em 1.5em #bec955, 0 0 5em 2.5em #bec955, 0 0 8em 4em #bec955;
+}
+
+/* animations */
+@keyframes hero_text {
+    0%{
+        transform: translateX(100%);
+    }
+    70%{
+        transform: translateX(-10%);
+    }
+    85%{
+        transform: translateX(5%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
