@@ -1,15 +1,15 @@
-let navbar=document.getElementById("navbar");
-let hero_text=document.querySelector(".hero_text p");
+let navbar = document.getElementById("navbar");
+let hero_text = document.querySelector(".hero_text p");
 window.addEventListener("scroll", () => {
     const offset = window.pageYOffset;
     console.log(offset);
-    if(offset>=10){
+    if (offset >= 10) {
         navbar.style.backdropFilter = "blur(10px)";
-        hero_text.style.opacity="1";
+        hero_text.style.opacity = "1";
     }
-    else{
+    else {
         navbar.style.backdropFilter = "blur(0px)";
-        hero_text.style.opacity="0";
+        hero_text.style.opacity = "0";
     }
 
 });
@@ -17,23 +17,23 @@ window.addEventListener("scroll", () => {
 //   text revealing js
 gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".revealUp").forEach(function (elem) {
-  ScrollTrigger.create({
-    trigger: elem,
-    start: "top 50%",
-    end: "bottom 20%",
-    markers: false,
-    onEnter: function () {
-      gsap.fromTo(
-        elem,
-        { y: 100, autoAlpha: 0 },
-        {
-          duration: 1.25,
-          y: -10,
-          autoAlpha: 1,
-          ease: "back",
-          overwrite: "auto"
+    ScrollTrigger.create({
+        trigger: elem,
+        start: "top 50%",
+        end: "bottom 20%",
+        markers: false,
+        onEnter: function () {
+            gsap.fromTo(
+                elem,
+                { y: 100, autoAlpha: 0 },
+                {
+                    duration: 1.25,
+                    y: -10,
+                    autoAlpha: 1,
+                    ease: "back",
+                    overwrite: "auto"
+                }
+            );
         }
-      );
-    }
-  });
+    });
 });
