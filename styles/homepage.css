@@ -39,8 +39,8 @@ header {
 }
 
 .hero_text {
-    animation: hero_text 1s 1 forwards;
-    transition: 1s;
+    animation: hero_text 1.5s 1 forwards;
+    transition: 1.5s;
     position: absolute;
     right: 5em;
     top: 30vh;
@@ -50,7 +50,7 @@ header {
 
 .hero_text p {
     opacity: 0;
-    transition: 1s;
+    transition: 1.5s;
     font-size: 2em;
     font-family: 'atomic', sans-serif;
     color: var(--shadow-color);
@@ -83,6 +83,7 @@ header span li text {
 .content_head {
     position: absolute;
     top: 0;
+    transition: 1.5s;
 }
 .blogs_head strong,
 .contact_head strong,
@@ -420,4 +421,27 @@ footer{
     100%{
         transform: translateX(0%);
     }
+}
+@keyframes content_head {
+    0%{
+        transform: translateX(-100%);
+    }
+    70%{
+        transform: translateX(10%);
+    }
+    85%{
+        transform: translateX(-5%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.revealUp {
+    opacity: 0;
+    visibility: hidden;
+  }
+section{
+    width: 100%;
+    height: fit-content;
 }

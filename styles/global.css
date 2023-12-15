@@ -6,7 +6,9 @@
     list-style: none;
     font-size: 10px;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 body,
 html {
     overflow-x: hidden;
