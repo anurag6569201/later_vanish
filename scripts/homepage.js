@@ -1,9 +1,7 @@
 let navbar=document.getElementById("navbar");
 let hero_text=document.querySelector(".hero_text p");
-let content_head=document.querySelector(".content_head");
-let redeem_head=document.querySelector(".redeem_head");
 window.addEventListener("scroll", () => {
-    const offset = window.pageYOffset*0.7;
+    const offset = window.pageYOffset;
     console.log(offset);
     if(offset>=10){
         navbar.style.backdropFilter = "blur(10px)";
@@ -13,8 +11,6 @@ window.addEventListener("scroll", () => {
         navbar.style.backdropFilter = "blur(0px)";
         hero_text.style.opacity="0";
     }
-    // if(offset>=)
-    // parllel.style.backgroundPositionY = offset * 0.7 + "px";
 
 });
 
@@ -23,8 +19,8 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".revealUp").forEach(function (elem) {
   ScrollTrigger.create({
     trigger: elem,
-    start: "top 85%",
-    end: "bottom 15%",
+    start: "top 50%",
+    end: "bottom 20%",
     markers: false,
     onEnter: function () {
       gsap.fromTo(
@@ -32,7 +28,7 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
         { y: 100, autoAlpha: 0 },
         {
           duration: 1.25,
-          y: 0,
+          y: -10,
           autoAlpha: 1,
           ease: "back",
           overwrite: "auto"
