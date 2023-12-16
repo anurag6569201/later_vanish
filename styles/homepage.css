@@ -68,32 +68,37 @@ label {
     }
 }
 
-nav {
+#navbar {
     display: flex;
     align-items: center;
     justify-content: right;
     position: fixed;
-    background: transparent;
+    background: transparent!important;
     top: 0;
     width: 100%;
     z-index: 1000;
     backdrop-filter: blur(0px);
 }
-
-nav li {
-    padding: 2em 3em 1em 1em;
+.li-container{
+    display: flex;
+    justify-content: right;
+    width: 100%;
 }
-
-nav li a {
+@media (max-width:991px) {
+    .li-container{
+        display: flex;
+        justify-content: left;
+        width: 100%;
+    }
+}
+#navbar a {
     font-size: 2.2em;
     color: var(--nav-text-color);
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+    padding: .5em 1em .5em 1em;
 }
 
-nav li:last-child {
-    display: none;
-}
-
-nav li a:hover {
+#navbar a:hover {
     color: var(--nav-color);
     text-shadow: 0 4px 3.4px var(--shadow-color);
 }
