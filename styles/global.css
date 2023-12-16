@@ -27,8 +27,16 @@ body::-webkit-scrollbar {
 }
 
 :root {
+    --nav-color-text:#01211c;
     --nav-text-color: #9aa62d;
     --nav-color: #753569;
     --shadow-color: #b8b8ae;
     --purple-color: #753569;
+}
+.navbar-brand{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+.logo{
+    width: 60px;
 }
