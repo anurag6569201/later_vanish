@@ -1,0 +1,22 @@
+@media (max-width:460px) {
+
+    .hero_text{
+        font-size: .6em;
+    }
+    .hero_text p{
+        font-size: 2em;
+        padding-left: 3em;
+    }
+    .content_head{
+        font-size: .7em;
+    }
+    .content_head_para{
+        font-size: .7em;
+    }
+    .content_frame_image, .content_frame_text{
+        height: 50vh;
+    }
+    .location_back{
+        height: 40vh;
+    }
+}

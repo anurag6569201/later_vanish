@@ -130,7 +130,7 @@ header {
     transition: 1.5s;
     font-size: 2em;
     font-family: 'atomic', sans-serif;
-    color: var(--shadow-color);
+    color: black;
 }
 
 header span li text {
