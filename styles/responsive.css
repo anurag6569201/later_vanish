@@ -7,16 +7,35 @@
         font-size: 2em;
         padding-left: 3em;
     }
+    .contact_head ,
+    .blogs_head,
+    .money_head,
+    .redeem_head,
     .content_head{
         font-size: .7em;
     }
+    .redeem_para,
     .content_head_para{
         font-size: .7em;
     }
     .content_frame_image, .content_frame_text{
         height: 50vh;
     }
+    .redeem_storetext,
+    .redeem_storeimage,
     .location_back{
-        height: 40vh;
+        height: 50vh;
+    }
+    .money_head {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    footer .container p{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:768px) {
+    html,body{
+        font-size: 8px;
     }
 }

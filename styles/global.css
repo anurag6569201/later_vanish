@@ -4,12 +4,13 @@
     box-sizing: border-box !important;
     text-decoration: none !important;
     list-style: none;
-    font-size: 10px;
+
 }
 
 html {
     scroll-behavior: smooth;
-    scroll-padding: 5em;
+    scroll-padding: 15em;
+    font-size: 10px;
 }
 
 body,
