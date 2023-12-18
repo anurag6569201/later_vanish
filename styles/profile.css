@@ -5,7 +5,7 @@
     position: fixed;
     top: 6.5em;
     left: 3em;
-    z-index: 100;
+    z-index: 1000;
     border-radius: 1em;
     border: 1px solid grey;
     box-shadow: 0 2px 4px 1px rgb(172, 172, 172);

@@ -1,3 +1,8 @@
+@media (max-width:370px) {
+    *{
+        font-size: 8px;
+    }
+}
 @media (max-width:460px) {
 
     .hero_text{
@@ -24,8 +29,13 @@
     .redeem_storetext,
     .redeem_storeimage,
     .location_back{
-        height: 50vh;
+        height: 25em;
     }
+    .redeem_para {
+        transform: translateY(0em);
+        padding-top: 0em;
+    }
+    .redeem_head,
     .money_head {
         padding-top: 2em;
         padding-bottom: 2em;
