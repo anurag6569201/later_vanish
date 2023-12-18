@@ -4,13 +4,13 @@
     box-sizing: border-box !important;
     text-decoration: none !important;
     list-style: none;
+    font-size: 10px;
 
 }
 
 html {
     scroll-behavior: smooth;
     scroll-padding: 15em;
-    font-size: 10px;
 }
 
 body,
@@ -21,7 +21,10 @@ html {
 body::-webkit-scrollbar {
     width: 0px;
 }
-
+hr{
+    padding: 0!important;
+    margin: 0!important;
+}
 @font-face {
     font-family: 'atomic';
     src: url('../fonts/AtomicAge-Regular.ttf') format('truetype');
@@ -33,6 +36,7 @@ body::-webkit-scrollbar {
     --nav-color: #753569;
     --shadow-color: #b8b8ae;
     --purple-color: #753569;
+    --primary-color: rgb(40, 40, 255);
 }
 .navbar-brand{
     padding-top: 0!important;

@@ -1,16 +1,16 @@
 let navbar = document.getElementById("navbar");
 let hero_text = document.querySelector(".hero_text p");
 window.addEventListener("scroll", () => {
-    const offset = window.pageYOffset;
-    console.log(offset);
-    if (offset >= 10) {
-        navbar.style.backdropFilter = "blur(10px)";
-        hero_text.style.opacity = "1";
-    }
-    else {
-        navbar.style.backdropFilter = "blur(0px)";
-        hero_text.style.opacity = "0";
-    }
+  const offset = window.pageYOffset;
+  console.log(offset);
+  if (offset >= 10) {
+    navbar.style.backdropFilter = "blur(10px)";
+    hero_text.style.opacity = "1";
+  }
+  else {
+    navbar.style.backdropFilter = "blur(0px)";
+    hero_text.style.opacity = "0";
+  }
 
 });
 
@@ -61,7 +61,18 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
 // loader
 const loader = document.getElementById("loader");
 window.addEventListener('load', () => {
-    setTimeout(() => {
-        loader.style.display = "none";
-    },2000);
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 2000);
 });
+
+// profile section
+let show_profile = document.querySelector(".navbar-brand");
+show_profile.addEventListener("click", () => {
+  let profile = document.querySelector(".profile");
+  if (profile.style.display == "block") {
+    profile.style.display = "none";
+  } else {
+    profile.style.display = "block";
+  };
+})
