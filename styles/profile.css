@@ -2,7 +2,7 @@
     display: none;
     width: 30em;
     height: 17em;
-    position: absolute;
+    position: fixed;
     top: 6.5em;
     left: 3em;
     z-index: 100;

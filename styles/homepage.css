@@ -79,6 +79,7 @@ label {
     border: 3px solid #9aa62d;
     box-shadow: 0 0 4px 2px #9aa62d;
     cursor: pointer;
+    z-index: 100;
 }
 .navbar-brand:hover{
     border: 3px solid var(--purple-color);

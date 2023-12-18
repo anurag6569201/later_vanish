@@ -67,7 +67,9 @@ window.addEventListener('load', () => {
 });
 
 // profile section
-let show_profile = document.querySelector(".navbar-brand");
+let show_profile = document.querySelector(".navbar-brand img");
+let profile = document.querySelector(".profile");
+
 show_profile.addEventListener("click", () => {
   let profile = document.querySelector(".profile");
   if (profile.style.display == "block") {
@@ -76,3 +78,8 @@ show_profile.addEventListener("click", () => {
     profile.style.display = "block";
   };
 })
+document.addEventListener("click", (event) => {
+  if (!profile.contains(event.target) && event.target !== show_profile) {
+    profile.style.display = "none";
+  }
+});
